@@ -1,5 +1,6 @@
 import string
 def print_rangoli(size):
+    '''printing the aphabet rangoli design'''
     middle = size -1
     for i in range(size-1, 0, -1):
         row = ['-'] * (2 * size - 1)
