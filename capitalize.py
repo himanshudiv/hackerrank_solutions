@@ -6,6 +6,7 @@ def capitalize(strng):
         str_list[i]=item.capitalize()
         i+=1
     return " ".join(str_list)
+#Can be straightly done using strng.title() method
 
 if __name__=='__main__':
 	string= raw_input()
