@@ -24,9 +24,6 @@ def solve(a0, a1, a2, b0, b1, b2):
         bob+=1
     return (alice, bob)
 
-    
-    # Complete this function
-
 a0, a1, a2 = raw_input().strip().split(' ')
 a0, a1, a2 = [int(a0), int(a1), int(a2)]
 b0, b1, b2 = raw_input().strip().split(' ')
